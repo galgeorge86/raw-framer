@@ -1,0 +1,12 @@
+[package]
+name = "rf-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "Source-agnostic media types and the MediaSource trait for Raw Framer"
+
+[dependencies]
+thiserror.workspace = true
+half.workspace = true
+serde.workspace = true

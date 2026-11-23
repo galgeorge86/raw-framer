@@ -1,0 +1,24 @@
+# Third-party licenses
+
+Raw Framer includes the following open-source Rust libraries. Their licenses are reproduced
+below as they require.
+
+{{#each overview}}
+- **{{name}}** ({{count}} crates)
+{{/each}}
+
+{{#each licenses}}
+---
+
+## {{name}}
+
+Used by:
+{{#each used_by}}
+- {{crate.name}} {{crate.version}}
+{{/each}}
+
+```
+{{text}}
+```
+
+{{/each}}
